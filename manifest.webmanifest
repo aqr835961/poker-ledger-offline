@@ -1,0 +1,1 @@
+{"name":"德州撲克離線記帳","short_name":"撲克記帳","description":"完全本機的德州撲克一般記帳與局間小遊戲","lang":"zh-Hant","start_url":"./","scope":"./","display":"standalone","background_color":"#f3f5f4","theme_color":"#142b2a","icons":[{"src":"icons/icon-192.png","sizes":"192x192","type":"image/png"},{"src":"icons/icon-512.png","sizes":"512x512","type":"image/png"}]}
