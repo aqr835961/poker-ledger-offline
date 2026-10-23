@@ -4,3 +4,6 @@
 
 /* V2.2: confirmed mini-games and compact review */
 .mini-game{background:#fff}.mini-game h4{margin:12px 0 5px}.mini-summary{margin:8px 0}.mini-line{display:flex;justify-content:space-between;gap:12px;padding:6px 0;border-bottom:1px solid #edf0ee;font-size:14px}.mini-cumulative{margin-top:15px;padding:12px;border-radius:12px;background:#f1f6f3}.mini-cumulative h3{margin:0 0 9px}.pill-edit{background:#fff1d6;color:#825500}
+
+/* V2.3: per-game totals and separate unconfirmed preview */
+.mini-game .row h3{margin-bottom:0}.mini-preview{background:#f5f8f6;border-radius:10px;padding:12px;margin:12px 0}.mini-preview h4{margin-top:0}.mini-cumulative{margin:14px 0}.mini-cumulative table{min-width:max-content}.mini-cumulative td,.mini-cumulative th{min-width:80px}.mini-cumulative td:first-child,.mini-cumulative th:first-child{min-width:76px}.mini-cumulative td:last-child,.mini-cumulative th:last-child{font-weight:800;background:#e6f0e9}.mini-cumulative .table-scroll{border-radius:8px}
