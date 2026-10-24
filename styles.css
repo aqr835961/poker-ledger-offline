@@ -7,3 +7,12 @@
 
 /* V2.3: per-game totals and separate unconfirmed preview */
 .mini-game .row h3{margin-bottom:0}.mini-preview{background:#f5f8f6;border-radius:10px;padding:12px;margin:12px 0}.mini-preview h4{margin-top:0}.mini-cumulative{margin:14px 0}.mini-cumulative table{min-width:max-content}.mini-cumulative td,.mini-cumulative th{min-width:80px}.mini-cumulative td:first-child,.mini-cumulative th:first-child{min-width:76px}.mini-cumulative td:last-child,.mini-cumulative th:last-child{font-weight:800;background:#e6f0e9}.mini-cumulative .table-scroll{border-radius:8px}
+
+/* V3.0: only mini-game dual-bet layout (both between and within rounds) */
+.mini-bets{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:8px}
+.mini-bet{min-width:0}.mini-bet-title{text-align:center;font-weight:700;background:#e6f0e9;border-radius:8px;padding:6px;margin-bottom:8px;color:#1b5742}
+.mini-bet-title.mini-bet-blue{background:#e1f0fc;color:#173f67}
+.mini-bet-fields{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:6px}
+.mini-bet-fields .field{min-width:0}.mini-bet-fields .field label{font-size:12px}
+.mini-bet .seg{flex-wrap:nowrap;gap:3px}.mini-bet .seg button{min-width:0;padding:9px 1px;font-size:clamp(10px,2.6vw,13px);white-space:nowrap}
+@media(max-width:360px){.mini-bets{gap:6px}.mini-bet-fields{gap:4px}.mini-bet .seg button{font-size:10px}}
