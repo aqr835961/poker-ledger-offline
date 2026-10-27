@@ -16,3 +16,5 @@
 .mini-bet-fields .field{min-width:0}.mini-bet-fields .field label{font-size:12px}
 .mini-bet .seg{flex-wrap:nowrap;gap:3px}.mini-bet .seg button{min-width:0;padding:9px 1px;font-size:clamp(10px,2.6vw,13px);white-space:nowrap}
 @media(max-width:360px){.mini-bets{gap:6px}.mini-bet-fields{gap:4px}.mini-bet .seg button{font-size:10px}}
+/* V4.0 終極德州撲克簡潔操作元件 */
+.u-seg{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.u-choice{display:inline-flex;align-items:center;cursor:pointer;margin:0}.u-choice input{position:absolute;opacity:0;width:1px;height:1px}.u-choice span{display:inline-block;border:1px solid #a5bdb0;border-radius:9px;padding:9px 11px;background:#f3f6f4;color:#234437;font-size:14px}.u-choice input:checked+span{background:#174b3c;color:white;border-color:#174b3c}.u-choice input:focus-visible+span{outline:3px solid #69a98b}.item small{display:block;color:#68766f;margin-top:4px}
