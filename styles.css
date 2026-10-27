@@ -18,3 +18,13 @@
 @media(max-width:360px){.mini-bets{gap:6px}.mini-bet-fields{gap:4px}.mini-bet .seg button{font-size:10px}}
 /* V4.0 終極德州撲克簡潔操作元件 */
 .u-seg{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.u-choice{display:inline-flex;align-items:center;cursor:pointer;margin:0}.u-choice input{position:absolute;opacity:0;width:1px;height:1px}.u-choice span{display:inline-block;border:1px solid #a5bdb0;border-radius:9px;padding:9px 11px;background:#f3f6f4;color:#234437;font-size:14px}.u-choice input:checked+span{background:#174b3c;color:white;border-color:#174b3c}.u-choice input:focus-visible+span{outline:3px solid #69a98b}.item small{display:block;color:#68766f;margin-top:4px}
+
+/* V4.0.3: three closed-by-default ledger summaries; records remain accessible via history. */
+.ledger-fold{border:1px solid #d6e0da;border-radius:16px;background:#fff;margin:16px 0;overflow:hidden}
+.ledger-fold>summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:20px 18px;font-size:1.12rem;font-weight:700;color:#203d35}
+.ledger-fold>summary::-webkit-details-marker{display:none}
+.ledger-fold .ledger-count{white-space:nowrap;font-size:.9rem;font-weight:500;color:#62776e}
+.ledger-fold[open] .fold-arrow{display:inline-block;transform:rotate(180deg)}
+.ledger-fold-content{padding:0 16px 18px}
+.management-actions{margin-top:10px;margin-bottom:18px}
+.main-actions button{background:#2c6654;color:#fff}
