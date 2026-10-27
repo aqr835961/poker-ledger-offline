@@ -28,3 +28,10 @@
 .ledger-fold-content{padding:0 16px 18px}
 .management-actions{margin-top:10px;margin-bottom:18px}
 .main-actions button{background:#2c6654;color:#fff}
+
+/* V4.0.4: horizontally scrollable per-record matrices, sticky player / cumulative columns */
+.record-matrix .table-scroll{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid #e2e8e4;border-radius:9px}
+.record-matrix table{min-width:max-content;width:100%}
+.record-matrix th,.record-matrix td{min-width:88px}
+.record-matrix th:first-child,.record-matrix td:first-child{min-width:68px;z-index:1}
+.record-matrix th:last-child,.record-matrix td:last-child{background:#e7f0ea;font-weight:800;min-width:96px}
